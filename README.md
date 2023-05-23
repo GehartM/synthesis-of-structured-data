@@ -62,6 +62,7 @@ This script can be used to synthesise any structured data with CTGAN or TVAE. Th
 - SDV version: 1.1.0+
 - [Custom_constraints_Case_Information.py](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Custom_constraints_Case_Information.py)
 - [Custom_constraints_Elektronischer_Impfpass.py](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Custom_constraints_Elektronischer_Impfpass.py)
+- json metadata file for input csv (the metadata files for "Case_Information.csv", "Online Retail.csv", "Faker_Elektronischer_Impfpass_Output.csv" and "Faker_Jö_Bonusclub_Output.csv" can be found inside the directory [metadata files](https://github.com/GehartM/synthesis-of-structured-data/tree/main/Data%20synthesis/example%20scripts/metadata%20files))
 
 **Usage:**
 ```
