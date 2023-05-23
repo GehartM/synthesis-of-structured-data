@@ -29,7 +29,7 @@ This script creates an artificial data set based on data collected by the custom
 - Python version: 3.8+
 - Faker version: 14.2+
 - Pandas version: 1.5+
-- "Billa_Onlineshop_Produkte.csv" (Contains several products and their prices)
+- ["Billa_Onlineshop_Produkte.csv"](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Artificial%20generation/example%20scripts/Billa_Onlineshop_Produkte.csv) (Contains several products and their prices)
 
 **Usage:**
 ```
@@ -52,4 +52,55 @@ python3 Faker_Gesundheitsbefragung.py
 
 
 ## Data synthesis
+### Synthetic_data_generator_sdv.py
+**Background:**
+This script can be used to synthesise any structured data with CTGAN or TVAE. The implementation of synthesis methods from SDV is used for this purpose. The script is optimised for the synthesis of the four data sets [Case_Information.csv](https://www.kaggle.com/datasets/cvronao/covid19-philippine-dataset?select=Case_Information.csv), [Online Retail.csv](https://archive.ics.uci.edu/ml/datasets/online+retail), [Faker_Elektronischer_Impfpass_Output.csv](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Artificial%20generation/example%20output/Faker_Elektronischer_Impfpass_Output.csv) and [Faker_Jö_Bonusclub_Output.csv](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Artificial%20generation/example%20output/Faker_J%C3%B6_Bonusclub_Output.csv).
+
+**Requirements:**
+- Python version: 3.8+
+- Pandas version: 1.5+
+- SDV version: 1.1.0+
+- [Custom_constraints_Case_Information.py](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Custom_constraints_Case_Information.py)
+- [Custom_constraints_Elektronischer_Impfpass.py](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Custom_constraints_Elektronischer_Impfpass.py)
+
+**Usage:**
+```
+Synthetic_data_generator_sdv.py [-m METHODS]
+```
+
+### Beispieldaten_fiktiver_Personen_sdv_ctgan.py
+**Background:**
+Simple example showing how the CTGAN of SDV and the Faker library works.
+
+**Requirements:**
+- Python version: 3.8+
+- Pandas version: 1.5+
+- SDV version: 0.18
+- ["Beispieldaten_fiktiver_Personen.csv"](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Beispieldaten_fiktiver_Personen.csv)
+
+**Usage:**
+```
+python3 Beispieldaten_fiktiver_Personen_sdv_ctgan.py
+```
+
+
+### Bayesian_network_example_Gesundheitsbefragung.py
+**Background:**
+This script serves as an illustration of how a Bayesian network can be trained in order to generate synthetic data. For this purpose, an artificially generated data set based on the [Austrian Health Survey of 2019](https://www.statistik.at/fileadmin/publications/Oesterreichische-Gesundheitsbefragung2019_Hauptergebnisse.pdf) is used as input.
+
+**Requirements:**
+- Python version: 3.8+
+- Pandas version: 1.5+
+- pgmpy version: 0.1.21+
+- Matplotlib version: 3.6+
+- Seaborn version: 0.12+
+- plotly version: 5.13+
+- cpt_tools (Can be downloaded from [grahamharrison68](https://gist.github.com/grahamharrison68/1187c53d078c3c899b534852fe8edf9c))
+-"Faker_Gesundheitsbefragung_Output.csv" (Can be generated with [Faker_Gesundheitsbefragung.py](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Artificial%20generation/example%20scripts/Faker_Gesundheitsbefragung.py) or download the pre-generated [example](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Artificial%20generation/example%20output/Faker_Gesundheitsbefragung_Output.csv))
+
+
+**Usage:**
+```
+python3 Bayesian_network_example_Gesundheitsbefragung.py
+```
 
