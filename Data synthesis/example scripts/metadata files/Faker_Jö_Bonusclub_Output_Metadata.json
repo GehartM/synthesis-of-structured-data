@@ -1,0 +1,69 @@
+{
+    "columns": {
+        "Produktname": {
+            "sdtype": "categorical"
+        },
+        "Kategorie": {
+            "sdtype": "categorical"
+        },
+        "Verbrauchausgaben-Kategorie": {
+            "sdtype": "categorical"
+        },
+        "Preis in \u20ac je Stk": {
+            "sdtype": "categorical"
+        },
+        "Anzahl": {
+            "sdtype": "numerical"
+        },
+        "Gesamtpreis": {
+            "sdtype": "numerical"
+        },
+        "Gesammelte \u00d6s": {
+            "sdtype": "numerical"
+        },
+        "Kaufdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y %H:%M"
+        },
+        "Bezahlart": {
+            "sdtype": "categorical"
+        },
+        "Mitgliedsnummer": {
+            "sdtype": "numerical"
+        },
+        "Vorname": {
+            "sdtype": "first_name",
+            "pii": true
+        },
+        "Nachname": {
+            "sdtype": "last_name",
+            "pii": true
+        },
+        "Geschlecht": {
+            "sdtype": "categorical"
+        },
+        "Geburtsdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "Postleitzahl": {
+            "sdtype": "categorical"
+        },
+        "Ort": {
+            "sdtype": "categorical"
+        },
+        "Stra\u00dfe": {
+            "sdtype": "street_address",
+            "pii": true
+        },
+        "Telefonnummer": {
+            "sdtype": "phone_number",
+            "pii": true
+        },
+        "E-Mailadresse": {
+            "sdtype": "free_email",
+            "pii": true
+        }
+    },
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1"
+}

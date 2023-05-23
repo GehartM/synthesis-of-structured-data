@@ -1,0 +1,30 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "InvoiceNo": {
+            "sdtype": "categorical"
+        },
+        "StockCode": {
+            "sdtype": "categorical"
+        },
+        "Description": {
+            "sdtype": "categorical"
+        },
+        "Quantity": {
+            "sdtype": "numerical"
+        },
+        "InvoiceDate": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y %H:%M"
+        },
+        "UnitPrice": {
+            "sdtype": "categorical"
+        },
+        "CustomerID": {
+            "sdtype": "numerical"
+        },
+        "Country": {
+            "sdtype": "categorical"
+        }
+    }
+}

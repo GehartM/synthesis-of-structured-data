@@ -1,0 +1,56 @@
+{
+    "columns": {
+        "case_id": {
+            "sdtype": "id",
+            "regex_format": "C[0-9]{6}"
+        },
+        "age": {
+            "sdtype": "numerical"
+        },
+        "sex": {
+            "sdtype": "categorical"
+        },
+        "date_announced": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "date_recovered": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "date_of_death": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "status": {
+            "sdtype": "categorical"
+        },
+        "date_announced_as_removed": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "province": {
+            "sdtype": "categorical"
+        },
+        "muni_city": {
+            "sdtype": "categorical"
+        },
+        "health_status": {
+            "sdtype": "categorical"
+        },
+        "home_quarantined": {
+            "sdtype": "boolean"
+        },
+        "date_of_onset_of_symptoms": {
+            "sdtype": "datetime",
+            "datetime_format": "%d.%m.%Y"
+        },
+        "pregnant": {
+            "sdtype": "boolean"
+        },
+        "region": {
+            "sdtype": "categorical"
+        }
+    },
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1"
+}

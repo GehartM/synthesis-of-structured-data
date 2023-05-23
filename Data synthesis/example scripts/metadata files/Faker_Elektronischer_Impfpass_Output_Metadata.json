@@ -1,0 +1,104 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "Vorname": {
+            "sdtype": "first_name",
+            "pii": true
+        },
+        "Nachname": {
+            "sdtype": "last_name",
+            "pii": true
+        },
+        "Geschlecht": {
+            "sdtype": "categorical"
+        },
+        "Geburtsdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Sozialversicherungsnummer": {
+            "sdtype": "numerical"
+        },
+        "Bundesland": {
+            "sdtype": "categorical"
+        },
+        "Postleitzahl": {
+            "sdtype": "categorical"
+        },
+        "Ort": {
+            "sdtype": "categorical"
+        },
+        "Stra\u00dfe": {
+            "sdtype": "street_address",
+            "pii": true
+        },
+        "Tetanus und Diphterie Impfung": {
+            "sdtype": "boolean"
+        },
+        "Tetanus und Diphterie Impfstoff": {
+            "sdtype": "categorical"
+        },
+        "Tetanus und Diphterie Impfstoffhersteller": {
+            "sdtype": "categorical"
+        },
+        "Tetanus und Diphterie Impfdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Tetanus und Diphterie Ablaufdatum des Impfstoffs": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Polio Impfung": {
+            "sdtype": "boolean"
+        },
+        "Polio Impfstoff": {
+            "sdtype": "categorical"
+        },
+        "Polio Impfstoffhersteller": {
+            "sdtype": "categorical"
+        },
+        "Polio Impfdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Polio Ablaufdatum des Impfstoffs": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "FSME Impfung": {
+            "sdtype": "boolean"
+        },
+        "FSME Impfstoff": {
+            "sdtype": "categorical"
+        },
+        "FSME Impfstoffhersteller": {
+            "sdtype": "categorical"
+        },
+        "FSME Impfdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "FSME Ablaufdatum des Impfstoffs": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Covid Impfung": {
+            "sdtype": "boolean"
+        },
+        "Covid Impfstoff": {
+            "sdtype": "categorical"
+        },
+        "Covid Impfstoffhersteller": {
+            "sdtype": "categorical"
+        },
+        "Covid Impfdatum": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        },
+        "Covid Ablaufdatum des Impfstoffs": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d"
+        }
+    }
+}
