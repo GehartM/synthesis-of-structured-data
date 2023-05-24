@@ -105,3 +105,18 @@ This script serves as an illustration of how a Bayesian network can be trained i
 python3 Bayesian_network_example_Gesundheitsbefragung.py
 ```
 
+
+### DP_example.py
+**Background:**
+Comparison of aggregated evaluations of data sets with and without differential privacy.
+
+**Requirements:**
+- Python version: 3.8+
+- Pandas version: 1.5+
+- Python-DP version: 1.1.1
+- ["Beispieldaten_fiktiver_Personen.csv"](https://github.com/GehartM/synthesis-of-structured-data/blob/main/Data%20synthesis/example%20scripts/Beispieldaten_fiktiver_Personen.csv)
+
+**Usage:**
+```
+python3 DP_example.py
+```
